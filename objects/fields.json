@@ -1,0 +1,3741 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 344,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system",
+      "$key"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 101,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 16,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 30,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 40,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system",
+      "$key"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "%SynHeadersA",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersA"
+    ]
+  },
+  {
+    "qName": "%SynHeadersAgingBrackets",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersAgingBrackets"
+    ]
+  },
+  {
+    "qName": "%SynHeadersB",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersB"
+    ]
+  },
+  {
+    "qName": "%SynHeadersC",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersC"
+    ]
+  },
+  {
+    "qName": "%SynHeadersFive",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersFive"
+    ]
+  },
+  {
+    "qName": "%SynHeadersFour",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersFour"
+    ]
+  },
+  {
+    "qName": "%SynHeadersOne",
+    "qCardinal": 9,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersOne"
+    ]
+  },
+  {
+    "qName": "%SynHeadersSalesOne",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersSalesOne"
+    ]
+  },
+  {
+    "qName": "%SynHeadersSalesOneAnalysis",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersSalesOneAnalysis"
+    ]
+  },
+  {
+    "qName": "%SynHeadersSalesOneYTD",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersSalesOneYTD"
+    ]
+  },
+  {
+    "qName": "%SynHeadersThree",
+    "qCardinal": 5,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersThree"
+    ]
+  },
+  {
+    "qName": "%SynHeadersTwo",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "%SynHeadersTwo"
+    ]
+  },
+  {
+    "qName": "0-30 USD",
+    "qCardinal": 242602,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "31-60 USD",
+    "qCardinal": 190151,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "61-90 USD",
+    "qCardinal": 132092,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "91-120 USD",
+    "qCardinal": 84376,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "AffiliationReporting",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Aging Key",
+    "qCardinal": 889910,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Board Mix Key",
+    "qCardinal": 530,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Branch",
+    "qCardinal": 37,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Budget Amount USD",
+    "qCardinal": 719314,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Cartons",
+    "qCardinal": 81793,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Cost USD",
+    "qCardinal": 2414717,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Creation Date",
+    "qCardinal": 22158,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Date",
+    "qCardinal": 90,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Key",
+    "qCardinal": 10360095,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Kg",
+    "qCardinal": 1169435,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Lbp",
+    "qCardinal": 119435,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget MT",
+    "qCardinal": 1165091,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Misc Charges USD",
+    "qCardinal": 41107,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Month",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Pads",
+    "qCardinal": 151853,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Quantity",
+    "qCardinal": 120375,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Quantity Unit",
+    "qCardinal": 10,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget US Ton",
+    "qCardinal": 120508,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Budget Year",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Building Block",
+    "qCardinal": 111,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "INDEVCO_Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Building Block Level1",
+    "qCardinal": 47,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Building Block Level2",
+    "qCardinal": 119,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Building Block Level3",
+    "qCardinal": 327,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Building Block Level4",
+    "qCardinal": 310,
+    "qTags": [],
+    "qSrcTables": [
+      "Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Building Block Mix Key",
+    "qCardinal": 3075,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Items",
+      "Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Business Type",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Business Unit",
+    "qCardinal": 18,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Account",
+    "qCardinal": 15,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Country",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Currency Code",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Key",
+    "qCardinal": 37,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Business_Units",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Business Unit Location",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Province",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Segment",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Business Unit Type",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Capacity Key",
+    "qCardinal": 9984,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Capacity",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Capacity Kg",
+    "qCardinal": 299,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity Lbp",
+    "qCardinal": 308,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity MSF",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity MT",
+    "qCardinal": 299,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity Pieces",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity Quantity",
+    "qCardinal": 304,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity Quantity Unit",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity SQM",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity Trans Date",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Capacity US Ton",
+    "qCardinal": 303,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Capacity"
+    ]
+  },
+  {
+    "qName": "Channels Level1",
+    "qCardinal": 26,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Channels"
+    ]
+  },
+  {
+    "qName": "Channels Level2",
+    "qCardinal": 43,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Channels"
+    ]
+  },
+  {
+    "qName": "Channels Level3",
+    "qCardinal": 135,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Channels"
+    ]
+  },
+  {
+    "qName": "Channels Link Key",
+    "qCardinal": 74944,
+    "qTags": [
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Channels_Link",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Channels Mix Key",
+    "qCardinal": 293,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Channels",
+      "Channels_Link"
+    ]
+  },
+  {
+    "qName": "Charge",
+    "qCardinal": 85,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Charges"
+    ]
+  },
+  {
+    "qName": "Charge Code",
+    "qCardinal": 17,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Charges"
+    ]
+  },
+  {
+    "qName": "Charge Description",
+    "qCardinal": 85,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Charges"
+    ]
+  },
+  {
+    "qName": "Charge Key",
+    "qCardinal": 356,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Charges"
+    ]
+  },
+  {
+    "qName": "Charge Type",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Charges"
+    ]
+  },
+  {
+    "qName": "Collection Amount USD",
+    "qCardinal": 302462,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Currency",
+    "qCardinal": 20,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Currency_Rates"
+    ]
+  },
+  {
+    "qName": "Currency Average Rate",
+    "qCardinal": 7066,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Currency_Rates"
+    ]
+  },
+  {
+    "qName": "Currency Conversion Rate Date Num",
+    "qCardinal": 4630,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions",
+      "Currency_Rates"
+    ]
+  },
+  {
+    "qName": "Currency EOD Rate",
+    "qCardinal": 7066,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Currency_Rates"
+    ]
+  },
+  {
+    "qName": "Currency Key",
+    "qCardinal": 20,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Currency_Rates"
+    ]
+  },
+  {
+    "qName": "Currency Sorting Key",
+    "qCardinal": 20,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Currency_Rates"
+    ]
+  },
+  {
+    "qName": "Currency Symbol",
+    "qCardinal": 20,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Currency_Rates"
+    ]
+  },
+  {
+    "qName": "Customer",
+    "qCardinal": 51563,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Account",
+    "qCardinal": 58095,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Affiliation Type",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer BU Credit Limit",
+    "qCardinal": 1827,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Business Unit",
+    "qCardinal": 33,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Chain",
+    "qCardinal": 47740,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Channels Mix Key",
+    "qCardinal": 18,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Class",
+    "qCardinal": 47,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Family Type",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Global Customer Key",
+    "qCardinal": 67237,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman",
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Group",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer INDEVCO Sector Mix Key",
+    "qCardinal": 18,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Coverage",
+    "qCardinal": 152,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Payment Term",
+    "qCardinal": 34,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Premium",
+    "qCardinal": 20,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Insurance Provider",
+    "qCardinal": 21,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Invoice Account",
+    "qCardinal": 1097,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Key",
+    "qCardinal": 76237,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Customers",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Customer Key Account",
+    "qCardinal": 32,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Key Account LV2",
+    "qCardinal": 6,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Lost Reason Key",
+    "qCardinal": 3029,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Main Contact",
+    "qCardinal": 449,
+    "qTags": [],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Payment Term",
+    "qCardinal": 87,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Payment Term Days",
+    "qCardinal": 8,
+    "qTags": [],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Salesman",
+    "qCardinal": 801,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Salesman Level1",
+    "qCardinal": 21,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Customer Salesman Level2",
+    "qCardinal": 90,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Customer Salesman Level3",
+    "qCardinal": 140,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Customer Salesman Level4",
+    "qCardinal": 201,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Customer Salesman Level5",
+    "qCardinal": 237,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Customer Salesman Level6",
+    "qCardinal": 296,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Customer Salesman Level7",
+    "qCardinal": 508,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "CustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Customer Source",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Statistics Group",
+    "qCardinal": 14,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Subsidiary Purpose",
+    "qCardinal": 16,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Customer Unit",
+    "qCardinal": 10,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "DateReporting",
+    "qCardinal": 551,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Day",
+    "qCardinal": 31,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Dimensions",
+    "qCardinal": 41,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dimensions"
+    ]
+  },
+  {
+    "qName": "DimensionsID",
+    "qCardinal": 41,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dimensions"
+    ]
+  },
+  {
+    "qName": "Division",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Forecast Amount USD",
+    "qCardinal": 303048,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Cartons",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Cost USD",
+    "qCardinal": 252488,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Creation Date",
+    "qCardinal": 22156,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Date",
+    "qCardinal": 90,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Key",
+    "qCardinal": 8055047,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Kg",
+    "qCardinal": 114613,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Lbp",
+    "qCardinal": 117153,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast MT",
+    "qCardinal": 110016,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Misc Charges USD",
+    "qCardinal": 41107,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Model",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Forecast_Models"
+    ]
+  },
+  {
+    "qName": "Forecast Model Description",
+    "qCardinal": 6,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Forecast_Models"
+    ]
+  },
+  {
+    "qName": "Forecast Model Key",
+    "qCardinal": 41,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Forecast_Models",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Month",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Pads",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Quantity",
+    "qCardinal": 77444,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Quantity Unit",
+    "qCardinal": 10,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast US Ton",
+    "qCardinal": 118250,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forecast Year",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Forming Key",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "General Manager",
+    "qCardinal": 11,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Managers"
+    ]
+  },
+  {
+    "qName": "Geographical Area",
+    "qCardinal": 53,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "Geographical City",
+    "qCardinal": 101,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "Geographical City Mapped",
+    "qCardinal": 83,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "Geographical Continent",
+    "qCardinal": 12,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "Geographical Country",
+    "qCardinal": 79,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "Geographical Mix Key",
+    "qCardinal": 867,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Geographical Mix Source",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "Geographical Region",
+    "qCardinal": 29,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "Geographical State",
+    "qCardinal": 59,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Geographical_Mix"
+    ]
+  },
+  {
+    "qName": "GroupReporting",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Holding",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "INDEVCO Building Block Mix Key",
+    "qCardinal": 453,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Items",
+      "INDEVCO_Building_Blocks"
+    ]
+  },
+  {
+    "qName": "INDEVCO Sector Link Key",
+    "qCardinal": 74944,
+    "qTags": [
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "INDEVCO_Sectors_Link",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "INDEVCO Sector Mix Key",
+    "qCardinal": 704,
+    "qTags": [
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "INDEVCO_Sectors",
+      "INDEVCO_Sectors_Link"
+    ]
+  },
+  {
+    "qName": "Industry",
+    "qCardinal": 96,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "INDEVCO_Sectors"
+    ]
+  },
+  {
+    "qName": "Invoice Amount USD",
+    "qCardinal": 219605,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Cartons",
+    "qCardinal": 88664,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Conversion Cost USD",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Cost USD",
+    "qCardinal": 619639,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Creation Date",
+    "qCardinal": 469,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Customer",
+    "qCardinal": 51341,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Account",
+    "qCardinal": 57885,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Affiliation Type",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer BU Credit Limit",
+    "qCardinal": 1827,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Business Unit",
+    "qCardinal": 33,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Chain",
+    "qCardinal": 47558,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Channels Mix Key",
+    "qCardinal": 18,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Class",
+    "qCardinal": 47,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Family Type",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Global Customer Key",
+    "qCardinal": 305115,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Global Invoice Customer Key",
+    "qCardinal": 67015,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Group",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer INDEVCO Sector Mix Key",
+    "qCardinal": 18,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Insurance Coverage",
+    "qCardinal": 152,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Insurance Payment Term",
+    "qCardinal": 34,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Insurance Premium",
+    "qCardinal": 20,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Insurance Provider",
+    "qCardinal": 21,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Invoice Account",
+    "qCardinal": 1097,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Key",
+    "qCardinal": 76016,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Key Account",
+    "qCardinal": 32,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Key Account LV2",
+    "qCardinal": 6,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Lost Reason Key",
+    "qCardinal": 3029,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Main Contact",
+    "qCardinal": 449,
+    "qTags": [],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Payment Term",
+    "qCardinal": 87,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Payment Term Days",
+    "qCardinal": 8,
+    "qTags": [],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman",
+    "qCardinal": 801,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman Level1",
+    "qCardinal": 25,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman Level2",
+    "qCardinal": 118,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman Level3",
+    "qCardinal": 184,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman Level4",
+    "qCardinal": 287,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman Level5",
+    "qCardinal": 417,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman Level6",
+    "qCardinal": 507,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Salesman Level7",
+    "qCardinal": 892,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "InvoiceCustomersSalesman"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Source",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Statistics Group",
+    "qCardinal": 14,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Subsidiary Purpose",
+    "qCardinal": 16,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Customer Unit",
+    "qCardinal": 10,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Discount Amount USD",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Issuing Date",
+    "qCardinal": 469,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Key",
+    "qCardinal": 2823518,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Kg",
+    "qCardinal": 297531,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Lbp",
+    "qCardinal": 71854,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Line Number",
+    "qCardinal": 246,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice MSF",
+    "qCardinal": 95917,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice MT",
+    "qCardinal": 294311,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Main Amount USD",
+    "qCardinal": 53803,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Misc Charges By Value Amount USD",
+    "qCardinal": 27593,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Misc Charges By Weight Amount USD",
+    "qCardinal": 29874,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Misc Charges Provision By Value Amount USD",
+    "qCardinal": 32132,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Misc Charges Provision By Weight Amount USD",
+    "qCardinal": 34939,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice NAPCO Key Account Name",
+    "qCardinal": 51283,
+    "qTags": [],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice NAPCO Key Account Responsible",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Napco CRI Customer Category",
+    "qCardinal": 7,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Invoice_Customers"
+    ]
+  },
+  {
+    "qName": "Invoice Number",
+    "qCardinal": 55964,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Pads",
+    "qCardinal": 37751,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Pieces",
+    "qCardinal": 114565,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Process",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Quantity",
+    "qCardinal": 92560,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Quantity Unit",
+    "qCardinal": 35,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice RM Cost USD",
+    "qCardinal": 34210,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice SQM",
+    "qCardinal": 95595,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Status",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice US Ton",
+    "qCardinal": 68964,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Invoice Values Sign",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Item Brand",
+    "qCardinal": 48,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Item Business Plan",
+    "qCardinal": 99,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Item Category",
+    "qCardinal": 10,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Item Category Size",
+    "qCardinal": 633,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Item Channels Mix Key",
+    "qCardinal": 325,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Code",
+    "qCardinal": 29573,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Description",
+    "qCardinal": 29597,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Family",
+    "qCardinal": 122,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Item INDEVCO Sector Mix Key",
+    "qCardinal": 849,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Inventory Unit",
+    "qCardinal": 14,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Key",
+    "qCardinal": 49693,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Items",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Item Name",
+    "qCardinal": 43980,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Number",
+    "qCardinal": 29573,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Product Line",
+    "qCardinal": 45,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Item Source",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Item Sub Category",
+    "qCardinal": 198,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Item Type Key",
+    "qCardinal": 69,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Manufacturing Mix Key",
+    "qCardinal": 9,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Market Channel Level1",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix"
+    ]
+  },
+  {
+    "qName": "Market Channel Level2",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix"
+    ]
+  },
+  {
+    "qName": "Market Group",
+    "qCardinal": 39,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix"
+    ]
+  },
+  {
+    "qName": "Market Group Family",
+    "qCardinal": 1,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix"
+    ]
+  },
+  {
+    "qName": "Market Sector",
+    "qCardinal": 125,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix"
+    ]
+  },
+  {
+    "qName": "Market Sector Description",
+    "qCardinal": 127,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix"
+    ]
+  },
+  {
+    "qName": "Market Sector Mix Key",
+    "qCardinal": 326,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix",
+      "Items"
+    ]
+  },
+  {
+    "qName": "Market Sector Mix Source",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Market_Sectors_Mix"
+    ]
+  },
+  {
+    "qName": "Marketing Manager",
+    "qCardinal": 13,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Managers"
+    ]
+  },
+  {
+    "qName": "Master Calendar Date",
+    "qCardinal": 2991,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Master Calendar Date Num",
+    "qCardinal": 4630,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions",
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Material Code",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Material Description",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Material Financial Type Key",
+    "qCardinal": 0,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Material Lot Code",
+    "qCardinal": 1,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Material Lot Description",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Material Lot Name",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Material Name",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Measures",
+    "qCardinal": 12,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Measures"
+    ]
+  },
+  {
+    "qName": "MeasuresID",
+    "qCardinal": 12,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Measures"
+    ]
+  },
+  {
+    "qName": "Mixed Security Key",
+    "qCardinal": 18,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Business_Units"
+    ]
+  },
+  {
+    "qName": "Modify User Key",
+    "qCardinal": 21,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Month",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month Day",
+    "qCardinal": 366,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month ID",
+    "qCardinal": 132,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month Num",
+    "qCardinal": 12,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Month Year",
+    "qCardinal": 132,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "NAPCO Key Account Name",
+    "qCardinal": 51505,
+    "qTags": [],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "NAPCO Key Account Responsible",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "NET BALANCE USD",
+    "qCardinal": 335019,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Napco Building Block",
+    "qCardinal": 17,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Napco CRI Customer Category",
+    "qCardinal": 7,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Customers"
+    ]
+  },
+  {
+    "qName": "Order Key",
+    "qCardinal": 94630,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Over 120 Days USD",
+    "qCardinal": 72268,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Overdue Amount USD",
+    "qCardinal": 18750,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Overdue Days Brackets",
+    "qCardinal": 7,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Overdue Days Ordering",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Payment Term Key",
+    "qCardinal": 13,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Printing Type Key",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Business Line",
+    "qCardinal": 52,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Product Code",
+    "qCardinal": 13417,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Description",
+    "qCardinal": 11042,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Item Code",
+    "qCardinal": 13480,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Item Description",
+    "qCardinal": 11083,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Item Name",
+    "qCardinal": 11813,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Line",
+    "qCardinal": 264,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "INDEVCO_Building_Blocks"
+    ]
+  },
+  {
+    "qName": "Product MFG Code",
+    "qCardinal": 13480,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product MFG Description",
+    "qCardinal": 11083,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product MFG Name",
+    "qCardinal": 11813,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Manager",
+    "qCardinal": 19,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Managers"
+    ]
+  },
+  {
+    "qName": "Product Manager Key",
+    "qCardinal": 22,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Product_Managers",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Product Marketing Mix Key",
+    "qCardinal": 61,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Name",
+    "qCardinal": 11770,
+    "qTags": [],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Revision Code",
+    "qCardinal": 13418,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Style Line",
+    "qCardinal": 232,
+    "qTags": [],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Product Style Mix Code",
+    "qCardinal": 95,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Product Style Mix Description",
+    "qCardinal": 2223,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Product Style Mix Key",
+    "qCardinal": 4349,
+    "qTags": [
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix",
+      "Items"
+    ]
+  },
+  {
+    "qName": "Product Style Mix Source",
+    "qCardinal": 2,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Production Output FG Qty Kg",
+    "qCardinal": 162379,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Production Output FG Qty MT",
+    "qCardinal": 162361,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Purpose Key",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Quarter",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Quarter ID",
+    "qCardinal": 44,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Quarter Year",
+    "qCardinal": 44,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Record Type",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Revision Log Action",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Revisions_Log"
+    ]
+  },
+  {
+    "qName": "Revision Log Date",
+    "qCardinal": 12,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Revisions_Log"
+    ]
+  },
+  {
+    "qName": "Revision Log Key",
+    "qCardinal": 208288,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Revisions_Log"
+    ]
+  },
+  {
+    "qName": "Revision Log Modify User",
+    "qCardinal": 146,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Revisions_Log"
+    ]
+  },
+  {
+    "qName": "Revision Log Record Type",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Revisions_Log"
+    ]
+  },
+  {
+    "qName": "Sales Shared Key",
+    "qCardinal": 10509940,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Sales Source",
+    "qCardinal": 9,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Sales Type",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Salesman",
+    "qCardinal": 391,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman Key",
+    "qCardinal": 949,
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Salesmen",
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Salesman Level1",
+    "qCardinal": 111,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman Level2",
+    "qCardinal": 91,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Salesman Level3",
+    "qCardinal": 89,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Salesmen"
+    ]
+  },
+  {
+    "qName": "Sector",
+    "qCardinal": 13,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "INDEVCO_Sectors"
+    ]
+  },
+  {
+    "qName": "Selling Form",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Selling Type",
+    "qCardinal": 3,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Service Provider",
+    "qCardinal": 15207,
+    "qTags": [],
+    "qSrcTables": [
+      "Service_Providers"
+    ]
+  },
+  {
+    "qName": "Service Provider Account Num",
+    "qCardinal": 6828,
+    "qTags": [],
+    "qSrcTables": [
+      "Service_Providers"
+    ]
+  },
+  {
+    "qName": "Service Provider Key",
+    "qCardinal": 20884,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Service_Providers"
+    ]
+  },
+  {
+    "qName": "Shared Security Key",
+    "qCardinal": 55641,
+    "qTags": [],
+    "qSrcTables": [
+      "Sales_Shared_Dimensions"
+    ]
+  },
+  {
+    "qName": "Style",
+    "qCardinal": 209,
+    "qTags": [],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Style Category",
+    "qCardinal": 27,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Style Family",
+    "qCardinal": 286,
+    "qTags": [],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Style Sub Category",
+    "qCardinal": 208,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Style Type",
+    "qCardinal": 236,
+    "qTags": [],
+    "qSrcTables": [
+      "Product_Styles_Mix"
+    ]
+  },
+  {
+    "qName": "Sub Industry",
+    "qCardinal": 261,
+    "qTags": [],
+    "qSrcTables": [
+      "INDEVCO_Sectors"
+    ]
+  },
+  {
+    "qName": "User",
+    "qCardinal": 2859,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Users"
+    ]
+  },
+  {
+    "qName": "User Key",
+    "qCardinal": 2914,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Users"
+    ]
+  },
+  {
+    "qName": "User Type",
+    "qCardinal": 74,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Users"
+    ]
+  },
+  {
+    "qName": "Week",
+    "qCardinal": 53,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Week Day",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Week Year",
+    "qCardinal": 495,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  },
+  {
+    "qName": "Year",
+    "qCardinal": 11,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Master_Calendar"
+    ]
+  }
+]

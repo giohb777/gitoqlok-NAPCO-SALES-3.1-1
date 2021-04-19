@@ -1,0 +1,2634 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "92794410-79a3-4f77-b9b9-d064fcee3de8",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Pivot Dynamic",
+      "description": ""
+    },
+    "rank": 52.4375,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/9e3323e2-d339-463c-bddf-622d2623a054/BLUE ICON.png"
+      }
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "0fba2d33-0d76-4329-b9f9-7e1199793343",
+        "type": "text-image",
+        "col": 4,
+        "row": 0,
+        "colspan": 3,
+        "rowspan": 1
+      },
+      {
+        "name": "7a74439a-bce6-431e-a27c-b62104e06eb1",
+        "type": "swr-sense-navigation",
+        "col": 18,
+        "row": 0,
+        "colspan": 2,
+        "rowspan": 1
+      },
+      {
+        "name": "e820b0a4-f944-4376-bae2-9826c6db708b",
+        "type": "swr-sense-navigation",
+        "col": 20,
+        "row": 0,
+        "colspan": 2,
+        "rowspan": 1
+      },
+      {
+        "name": "214715cb-8dda-4193-9523-c8e7e0914302",
+        "type": "swr-sense-navigation",
+        "col": 22,
+        "row": 0,
+        "colspan": 2,
+        "rowspan": 1
+      },
+      {
+        "name": "b98dc56c-25c6-48ab-a67d-415960212ca7",
+        "type": "variable",
+        "col": 15,
+        "row": 0,
+        "colspan": 3,
+        "rowspan": 1
+      },
+      {
+        "name": "3b220536-1967-4e05-bba5-5500796025b3",
+        "type": "qssidemenu",
+        "col": 0,
+        "row": 0,
+        "colspan": 2,
+        "rowspan": 1
+      },
+      {
+        "name": "yYrAfd",
+        "type": "pivot-table",
+        "col": 0,
+        "row": 2,
+        "colspan": 24,
+        "rowspan": 10,
+        "bounds": {
+          "y": 16.666666666666664,
+          "x": 0,
+          "width": 100,
+          "height": 83.33333333333334
+        }
+      },
+      {
+        "name": "LXWhA",
+        "type": "variable",
+        "col": 0,
+        "row": 1,
+        "colspan": 3,
+        "rowspan": 1,
+        "bounds": {
+          "y": 8.333333333333332,
+          "x": 0,
+          "width": 12.5,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "pnpAEp",
+        "type": "variable",
+        "col": 3,
+        "row": 1,
+        "colspan": 3,
+        "rowspan": 1,
+        "bounds": {
+          "y": 8.333333333333332,
+          "x": 12.5,
+          "width": 12.5,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "uKvajp",
+        "type": "variable",
+        "col": 6,
+        "row": 1,
+        "colspan": 3,
+        "rowspan": 1,
+        "bounds": {
+          "y": 8.333333333333332,
+          "x": 25,
+          "width": 12.5,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "amzhe",
+        "type": "variable",
+        "col": 9,
+        "row": 1,
+        "colspan": 3,
+        "rowspan": 1,
+        "bounds": {
+          "y": 8.333333333333332,
+          "x": 37.5,
+          "width": 12.5,
+          "height": 8.333333333333332
+        }
+      },
+      {
+        "name": "CFRpR",
+        "type": "variable",
+        "col": 12,
+        "row": 1,
+        "colspan": 3,
+        "rowspan": 1,
+        "bounds": {
+          "y": 8.333333333333332,
+          "x": 50,
+          "width": 12.5,
+          "height": 8.333333333333332
+        }
+      }
+    ]
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "0fba2d33-0d76-4329-b9f9-7e1199793343",
+          "qType": "text-image"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Pick\n(\n\t$(v_Switch_Option_CM_YTD)\n    ,'Month'\n    ,'YTD'\n)\n",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "gRkkD",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "MonthName(Max({1<[Month ID]={$(v_Max_Month_ID)}>}[Month Year]))",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "EvGyb",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1
+          ],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "responsive": "all",
+        "markdown": "#[%[=[](gRkkD) **=[](EvGyb)**](3)](9)",
+        "images": [],
+        "background": {
+          "isUsed": false,
+          "size": "auto",
+          "position": "topLeft",
+          "url": {}
+        },
+        "visualization": "text-image",
+        "": []
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "e820b0a4-f944-4376-bae2-9826c6db708b",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Sales Trends",
+          "buttonStyle": "warning",
+          "fullWidth": true,
+          "buttonAlign": "center",
+          "isButtonMultiLine": true,
+          "buttonIcon": "power-off",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "760b4436-7563-47ea-a987-7b1d3d66400e",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": true,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "icon": "extension",
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png",
+          "template": "swr-sense-navigation",
+          "isLibraryItem": true,
+          "isThirdParty": true,
+          "templateIconClassName": "icon-puzzle"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "b98dc56c-25c6-48ab-a67d-415960212ca7",
+          "qType": "variable"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "v_Neutralize_Filter_Type",
+        "style": "bootstrap",
+        "width": "fill",
+        "customwidth": "",
+        "render": "b",
+        "alternatives": [
+          {
+            "value": "1",
+            "label": "Neutralize",
+            "cId": "PpKyDU"
+          },
+          {
+            "value": "2",
+            "label": "ALL",
+            "cId": "CJHXFT"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=v_Neutralize_Filter_Type"
+          }
+        },
+        "version": "2.3.1",
+        "extensionMeta": {
+          "name": "Variable",
+          "description": "Variable extension",
+          "version": "2.3.1",
+          "type": "visualization",
+          "author": "Erik Wetterberg",
+          "icon": "extension",
+          "template": "variable",
+          "isLibraryItem": true,
+          "isThirdParty": true,
+          "templateIconClassName": "icon-puzzle"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "7a74439a-bce6-431e-a27c-b62104e06eb1",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Overview",
+          "buttonStyle": "primary",
+          "fullWidth": true,
+          "buttonAlign": "center",
+          "isButtonMultiLine": true,
+          "buttonIcon": "globe",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "ffc72bb8-ccec-4426-aff4-76629850dd63",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": true,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "icon": "extension",
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png",
+          "template": "swr-sense-navigation",
+          "isLibraryItem": true,
+          "isThirdParty": true,
+          "templateIconClassName": "icon-puzzle"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "3b220536-1967-4e05-bba5-5500796025b3",
+          "qType": "qssidemenu"
+        },
+        "qExtendsId": "pCjesJT",
+        "qMetaDef": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "214715cb-8dda-4193-9523-c8e7e0914302",
+          "qType": "swr-sense-navigation"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "buttonLabel": "Sales & COP",
+          "buttonStyle": "success",
+          "fullWidth": true,
+          "buttonAlign": "center",
+          "isButtonMultiLine": true,
+          "buttonIcon": "puzzle-piece",
+          "action": "gotoSheet",
+          "sheetId": "",
+          "selectedSheet": "3b0e643a-81ad-4b4b-a423-ebcc7042b2ac",
+          "selectedStory": "",
+          "websiteUrl": "",
+          "isActionsBefore": true,
+          "actionBefore1": "none",
+          "field1": "",
+          "variable1": "",
+          "value1": "",
+          "value1Desc": null,
+          "bookmark1": "",
+          "softlock1": false,
+          "actionBefore2": "none",
+          "field2": "",
+          "variable2": "",
+          "value2": "",
+          "value2Desc": "",
+          "bookmark2": "",
+          "softlock2": false
+        },
+        "visualization": "swr-sense-navigation",
+        "version": "0.8.1",
+        "extensionMeta": {
+          "name": "Sheet Navigation & Actions",
+          "description": "Sense Sheet Navigation + Actions visualization extension for Qlik Sense.",
+          "icon": "extension",
+          "type": "visualization",
+          "version": "0.8.1",
+          "preview": "swr-sense-navigation.png",
+          "author": "Stefan Walther",
+          "license": "MIT",
+          "homepage": "http://github.com/stefanwalther/sense-navigation",
+          "keywords": "qlik-sense, visualization",
+          "repository": "https://github.com/stefanwalther/sense-navigation",
+          "dependencies": {
+            "qlik-sense": ">=2.1.1"
+          },
+          "previewIconURL": "../extensions/swr-sense-navigation/swr-sense-navigation.png",
+          "template": "swr-sense-navigation",
+          "isLibraryItem": true,
+          "isThirdParty": true,
+          "templateIconClassName": "icon-puzzle"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "yYrAfd",
+          "qType": "pivot-table"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(=(Pick\r\n(\n\t$(v_Selected_Dimension_1)\n    ,'\"Business Unit\"'\n\t,'\"Business Unit Location\"'\t\n\t,'\"Business Unit Type\"'\t\t\t\n\t,'\"Business Type\"'\n\t,'\"Geographical Country\"'\n\t,'\"Building Block\"'\n    ,'\"Geographical Area\"'\t\t\t\t\n    ,'\"Sector\"'\n    ,'\"Business Unit Segment\"'\n    ,'\"Division\"'\n    ,'\"Salesman Level1\"' \n    ,'\"Salesman Level2\"'\n    ,'\"Salesman Level3\"'\n\t,'\"Salesman\"'\t\n\t,'\"Customer Key Account\"'\t\t\t\n\t,'\"Customer Key Account LV2\"'\n\t,'\"Product Manager\"'\n\t,'\"Customer Unit\"'\n    ,'\"Customer Group\"'\t\t\t\t\n    ,'\"Customer Statistics Group\"'\n    ,'\"Customer\"'\n    ,'\"Geographical State\"'\n    ,'\"Customer Affiliation Type\"' \n    ,'\"Napco Building Block\"'\n    \n    ,'\"Building Block Level1\"'\n\t,'\"Building Block Level2\"'\t\n\t,'\"Building Block Level3\"'\t\t\t\n\t,'\"Building Block Level4\"'\n\t,'\"Item Name\"'\n\t,'\"Industry\"'\n    ,'\"Sub Industry\"'\t\t\t\t\n    ,'\"Geographical Continent\"'\n    ,'\"Geographical Region\"'\n    ,'\"Item Category\"'\n    ,'\"Item Sub Category\"' \n    ,'\"Item Category Size\"'\n    ,'\"Item Product Line\"'\n\t,'\"Item Business Plan\"'\t\n\t,'\"Channels Level1\"'\t\t\t\n\t,'\"Channels Level2\"'\n\t,'\"Channels Level3\"'\n    ,'\"Customer Chain\"'\n)))\n\n"
+                ],
+                "qFieldLabels": [
+                  "DIM1"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "CKQazH",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {
+                "qv": "Totals"
+              },
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(=(Pick\r\n(\n\t$(v_Selected_Dimension_2)\n    ,'\"Business Unit\"'\n\t,'\"Business Unit Location\"'\t\n\t,'\"Business Unit Type\"'\t\t\t\n\t,'\"Business Type\"'\n\t,'\"Geographical Country\"'\n\t,'\"Building Block\"'\n    ,'\"Geographical Area\"'\t\t\t\t\n    ,'\"Sector\"'\n    ,'\"Business Unit Segment\"'\n    ,'\"Division\"'\n    ,'\"Salesman Level1\"' \n    ,'\"Salesman Level2\"'\n    ,'\"Salesman Level3\"'\n\t,'\"Salesman\"'\t\n\t,'\"Customer Key Account\"'\t\t\t\n\t,'\"Customer Key Account LV2\"'\n\t,'\"Product Manager\"'\n\t,'\"Customer Unit\"'\n    ,'\"Customer Group\"'\t\t\t\t\n    ,'\"Customer Statistics Group\"'\n    ,'\"Customer\"'\n    ,'\"Geographical State\"'\n    ,'\"Customer Affiliation Type\"' \n    ,'\"Napco Building Block\"'\n    \n    ,'\"Building Block Level1\"'\n\t,'\"Building Block Level2\"'\t\n\t,'\"Building Block Level3\"'\t\t\t\n\t,'\"Building Block Level4\"'\n\t,'\"Item Name\"'\n\t,'\"Industry\"'\n    ,'\"Sub Industry\"'\t\t\t\t\n    ,'\"Geographical Continent\"'\n    ,'\"Geographical Region\"'\n    ,'\"Item Category\"'\n    ,'\"Item Sub Category\"' \n    ,'\"Item Category Size\"'\n    ,'\"Item Product Line\"'\n\t,'\"Item Business Plan\"'\t\n\t,'\"Channels Level1\"'\t\t\t\n\t,'\"Channels Level2\"'\n\t,'\"Channels Level3\"'\n    ,'\"Customer Chain\"'\n)))\n\n"
+                ],
+                "qFieldLabels": [
+                  "DIM2"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "SRQSb",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {
+                "qv": "Totals"
+              },
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(=(Pick\r\n(\n\t$(v_Selected_Dimension_3)\n    ,'\"Business Unit\"'\n\t,'\"Business Unit Location\"'\t\n\t,'\"Business Unit Type\"'\t\t\t\n\t,'\"Business Type\"'\n\t,'\"Geographical Country\"'\n\t,'\"Building Block\"'\n    ,'\"Geographical Area\"'\t\t\t\t\n    ,'\"Sector\"'\n    ,'\"Business Unit Segment\"'\n    ,'\"Division\"'\n    ,'\"Salesman Level1\"' \n    ,'\"Salesman Level2\"'\n    ,'\"Salesman Level3\"'\n\t,'\"Salesman\"'\t\n\t,'\"Customer Key Account\"'\t\t\t\n\t,'\"Customer Key Account LV2\"'\n\t,'\"Product Manager\"'\n\t,'\"Customer Unit\"'\n    ,'\"Customer Group\"'\t\t\t\t\n    ,'\"Customer Statistics Group\"'\n    ,'\"Customer\"'\n    ,'\"Geographical State\"'\n    ,'\"Customer Affiliation Type\"' \n    ,'\"Napco Building Block\"'\n    \n    ,'\"Building Block Level1\"'\n\t,'\"Building Block Level2\"'\t\n\t,'\"Building Block Level3\"'\t\t\t\n\t,'\"Building Block Level4\"'\n\t,'\"Item Name\"'\n\t,'\"Industry\"'\n    ,'\"Sub Industry\"'\t\t\t\t\n    ,'\"Geographical Continent\"'\n    ,'\"Geographical Region\"'\n    ,'\"Item Category\"'\n    ,'\"Item Sub Category\"' \n    ,'\"Item Category Size\"'\n    ,'\"Item Product Line\"'\n\t,'\"Item Business Plan\"'\t\n\t,'\"Channels Level1\"'\t\t\t\n\t,'\"Channels Level2\"'\n\t,'\"Channels Level3\"'\n    ,'\"Customer Chain\"'\n)))\n\n"
+                ],
+                "qFieldLabels": [
+                  "DIM3"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "VExWJ",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {
+                "qv": "Totals"
+              },
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(=(Pick\r\n(\n\t$(v_Selected_Dimension_4)\n    ,'\"Business Unit\"'\n\t,'\"Business Unit Location\"'\t\n\t,'\"Business Unit Type\"'\t\t\t\n\t,'\"Business Type\"'\n\t,'\"Geographical Country\"'\n\t,'\"Building Block\"'\n    ,'\"Geographical Area\"'\t\t\t\t\n    ,'\"Sector\"'\n    ,'\"Business Unit Segment\"'\n    ,'\"Division\"'\n    ,'\"Salesman Level1\"' \n    ,'\"Salesman Level2\"'\n    ,'\"Salesman Level3\"'\n\t,'\"Salesman\"'\t\n\t,'\"Customer Key Account\"'\t\t\t\n\t,'\"Customer Key Account LV2\"'\n\t,'\"Product Manager\"'\n\t,'\"Customer Unit\"'\n    ,'\"Customer Group\"'\t\t\t\t\n    ,'\"Customer Statistics Group\"'\n    ,'\"Customer\"'\n    ,'\"Geographical State\"'\n    ,'\"Customer Affiliation Type\"' \n    ,'\"Napco Building Block\"'\n    \n    ,'\"Building Block Level1\"'\n\t,'\"Building Block Level2\"'\t\n\t,'\"Building Block Level3\"'\t\t\t\n\t,'\"Building Block Level4\"'\n\t,'\"Item Name\"'\n\t,'\"Industry\"'\n    ,'\"Sub Industry\"'\t\t\t\t\n    ,'\"Geographical Continent\"'\n    ,'\"Geographical Region\"'\n    ,'\"Item Category\"'\n    ,'\"Item Sub Category\"' \n    ,'\"Item Category Size\"'\n    ,'\"Item Product Line\"'\n\t,'\"Item Business Plan\"'\t\n\t,'\"Channels Level1\"'\t\t\t\n\t,'\"Channels Level2\"'\n\t,'\"Channels Level3\"'\n    ,'\"Customer Chain\"'\n)))\n\n"
+                ],
+                "qFieldLabels": [
+                  "DIM4"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "MRFDfy",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {
+                "qv": "Totals"
+              },
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(=(Pick\r\n(\n\t$(v_Selected_Dimension_5)\n    ,'\"Business Unit\"'\n\t,'\"Business Unit Location\"'\t\n\t,'\"Business Unit Type\"'\t\t\t\n\t,'\"Business Type\"'\n\t,'\"Geographical Country\"'\n\t,'\"Building Block\"'\n    ,'\"Geographical Area\"'\t\t\t\t\n    ,'\"Sector\"'\n    ,'\"Business Unit Segment\"'\n    ,'\"Division\"'\n    ,'\"Salesman Level1\"' \n    ,'\"Salesman Level2\"'\n    ,'\"Salesman Level3\"'\n\t,'\"Salesman\"'\t\n\t,'\"Customer Key Account\"'\t\t\t\n\t,'\"Customer Key Account LV2\"'\n\t,'\"Product Manager\"'\n\t,'\"Customer Unit\"'\n    ,'\"Customer Group\"'\t\t\t\t\n    ,'\"Customer Statistics Group\"'\n    ,'\"Customer\"'\n    ,'\"Geographical State\"'\n    ,'\"Customer Affiliation Type\"' \n    ,'\"Napco Building Block\"'\n    \n    ,'\"Building Block Level1\"'\n\t,'\"Building Block Level2\"'\t\n\t,'\"Building Block Level3\"'\t\t\t\n\t,'\"Building Block Level4\"'\n\t,'\"Item Name\"'\n\t,'\"Industry\"'\n    ,'\"Sub Industry\"'\t\t\t\t\n    ,'\"Geographical Continent\"'\n    ,'\"Geographical Region\"'\n    ,'\"Item Category\"'\n    ,'\"Item Sub Category\"' \n    ,'\"Item Category Size\"'\n    ,'\"Item Product Line\"'\n\t,'\"Item Business Plan\"'\t\n\t,'\"Channels Level1\"'\t\t\t\n\t,'\"Channels Level2\"'\n\t,'\"Channels Level3\"'\n    ,'\"Customer Chain\"'\n)))\n\n"
+                ],
+                "qFieldLabels": [
+                  "DIM5"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "dwyAjp",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {
+                "qv": "Totals"
+              },
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=[%SynHeadersSalesOne]"
+                ],
+                "qFieldLabels": [
+                  "Header"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "WYDGeP",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {
+                "qv": "Totals"
+              },
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "MT",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Pick\n(\n\t$(v_Switch_Option_CM_YTD)\n    ,\n    Pick\n    (\n        [%SynHeadersSalesOne]\n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n        ,Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Budget MT])\n        ,\n        (\n            Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n            -Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Budget MT])\n        )\t\n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID_LY)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice MT])\t\n        ,\n        (\n            Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n            -Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID_LY)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n        )\t\n        \n        ,Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter),[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Forecast MT])\t,\n        (\n            Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n            -Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Forecast MT])\n        )\n    )\n    ,\n    Pick\n    (\n        [%SynHeadersSalesOne]\n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter),[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n        ,Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Budget MT])\n        ,\n        (\n            Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n            -Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Budget MT])\n        )\t\n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID_LY)\"}, Year = {$(v_Max_Year_LY)} , Quarter=, Month=, [Month Year]=>} [Invoice MT])\t\n        ,\n        (\n            Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n            -Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID_LY)\"}, Year = {$(v_Max_Year_LY)} , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n        )\t\n        \n        ,Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Forecast MT])\t,\n        (\n            Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice MT])\n            -Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Forecast MT])\n        )\n    )\n)\n\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#,##0",
+                  "qDec": ".",
+                  "qThou": ","
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "zsjXvDW",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qDef": {
+                "qLabel": "Net SLS",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Pick\n(\n\t$(v_Switch_Option_CM_YTD)\n    ,\n    Pick\n    (\n        [%SynHeadersSalesOne]\n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n        ,Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Budget Amount USD]*[Currency Average Rate])\n        ,\n        (\n              Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n              -Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Budget Amount USD]*[Currency Average Rate])\n        )\n        \n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))}, [Month ID] = {$(v_Max_Month_ID_LY)}, Year =  , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n        ,\n        (\n              Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n              -Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))}, [Month ID] = {$(v_Max_Month_ID_LY)}, Year =  , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n        )\n        ,Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter),[Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Forecast Amount USD]*[Currency Average Rate])\n        ,\n        (\n              Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n              -Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {$(v_Max_Month_ID)}, Year = , Quarter=, Month=, [Month Year]=>} [Forecast Amount USD]*[Currency Average Rate])\n        )\n    )/1000\n    ,\n    Pick\n    (\n        [%SynHeadersSalesOne]\n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n        ,Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Budget Amount USD]*[Currency Average Rate])\n        ,\n        (\n              Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n              -Sum({$<[Sales Type] = {'Budget'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter),[Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Budget Amount USD]*[Currency Average Rate])\n        )\n        \n        ,Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))}, [Month ID] = {\"<=$(v_Max_Month_ID_LY)\"}, Year = {$(v_Max_Year_LY)}  , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n        ,\n        (\n              Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n              -Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))}, [Month ID] = {\"<=$(v_Max_Month_ID_LY)\"}, Year = {$(v_Max_Year_LY)}  , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n        )\n        ,Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Forecast Amount USD]*[Currency Average Rate])\n        ,\n        (\n              Sum({$<[Sales Type] = {'Net Sales'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Invoice Amount USD]*[Currency Average Rate])\n              -Sum({$<[Sales Type] = {'Forecast'},$(v_B2C_Sales_Filter),$(v_Neutralize_Filter), [Currency Sorting Key]={$(=MaxString([Currency Sorting Key]))},[Month ID] = {\"<=$(v_Max_Month_ID)\"}, Year = {$(v_Max_Year)} , Quarter=, Month=, [Month Year]=>} [Forecast Amount USD]*[Currency Average Rate])\n        )\n    )/1000\n)\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#,##0",
+                  "qDec": ".",
+                  "qThou": ","
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "JDJdPnJ",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qDef": {
+                "qLabel": "COP",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "Pick\n(\n\t$(v_Switch_Option_CM_YTD)\n    ,\n    $(v_Contribution_CM_Based_On_Select_Variables)/1000\n    ,\n    $(v_Contribution_YTD_Based_On_Select_Variables)/1000\n)",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#,##0",
+                  "qDec": ".",
+                  "qThou": ","
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "APmNpA",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qDef": {
+                "qLabel": "COP/MT",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "(Column(3)/Column(1))*1000",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#,##0",
+                  "qDec": ".",
+                  "qThou": ","
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "EtBqXH",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qDef": {
+                "qLabel": "ASP/MT",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "(Column(2)/Column(1))*1000",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#,##0",
+                  "qDec": ".",
+                  "qThou": ","
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "geNzBDB",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qAttribute": true,
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            -1
+          ],
+          "qSuppressZero": true,
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 50,
+              "qHeight": 50
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "P",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": 5,
+          "qMaxStackedCells": 5000,
+          "qShowTotalsAbove": true,
+          "qIndentMode": true,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "columnWidths": [
+            [
+              801
+            ],
+            [
+              null,
+              null,
+              null,
+              144,
+              144
+            ]
+          ],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "pivot-table"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "LXWhA",
+          "qType": "variable"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "DIM1",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "v_Selected_Dimension_1",
+        "style": "bootstrap",
+        "width": "fill",
+        "customwidth": "10",
+        "render": "s",
+        "alternatives": [
+          {
+            "value": "1",
+            "label": "Business Unit",
+            "cId": "MTQesNB"
+          },
+          {
+            "value": "2",
+            "label": "Business Unit Location",
+            "cId": "zwfmw"
+          },
+          {
+            "value": "3",
+            "label": "Business Unit Type",
+            "cId": "sTFG"
+          },
+          {
+            "value": "4",
+            "label": "Business Type",
+            "cId": "FPaTgdu"
+          },
+          {
+            "value": "5",
+            "label": "Geographical Country",
+            "cId": "AGeBKD"
+          },
+          {
+            "value": "6",
+            "label": "Building Block",
+            "cId": "hPpq"
+          },
+          {
+            "value": "7",
+            "label": "Geographical Area",
+            "cId": "QbppgG"
+          },
+          {
+            "value": "8",
+            "label": "Sector",
+            "cId": "GxrgGm"
+          },
+          {
+            "value": "9",
+            "label": "Business Unit Segment",
+            "cId": "DrpeZR"
+          },
+          {
+            "value": "10",
+            "label": "Division",
+            "cId": "JPfscX"
+          },
+          {
+            "value": "11",
+            "label": "Salesman Level1",
+            "cId": "jdJUf"
+          },
+          {
+            "value": "12",
+            "label": "Salesman Level2",
+            "cId": "DGmN"
+          },
+          {
+            "value": "13",
+            "label": "Salesman Level3",
+            "cId": "XYvXtt"
+          },
+          {
+            "value": "14",
+            "label": "Salesman",
+            "cId": "Hbrdtp"
+          },
+          {
+            "value": "15",
+            "label": "Customer Key Account",
+            "cId": "dwMLn"
+          },
+          {
+            "value": "16",
+            "label": "Customer Key Account LV2",
+            "cId": "bLMeMNf"
+          },
+          {
+            "value": "17",
+            "label": "Product Manager",
+            "cId": "TBbPjD"
+          },
+          {
+            "value": "18",
+            "label": "Customer Unit",
+            "cId": "wjqEkN"
+          },
+          {
+            "value": "19",
+            "label": "Customer Group",
+            "cId": "BRmxfjJ"
+          },
+          {
+            "value": "20",
+            "label": "Customer Statistics Group",
+            "cId": "uKccgh"
+          },
+          {
+            "value": "21",
+            "label": "Customer",
+            "cId": "TSAynyj"
+          },
+          {
+            "value": "22",
+            "label": "Geographical State",
+            "cId": "PRKbWp"
+          },
+          {
+            "value": "23",
+            "label": "Customer Affiliation Type",
+            "cId": "PpEBJjG"
+          },
+          {
+            "value": "24",
+            "label": "Napco Building Block",
+            "cId": "VmUczV"
+          },
+          {
+            "value": "25",
+            "label": "Building Block Level1",
+            "cId": "PmfpDPT"
+          },
+          {
+            "value": "26",
+            "label": "Building Block Level2",
+            "cId": "YtjXJeY"
+          },
+          {
+            "value": "27",
+            "label": "Building Block Level3",
+            "cId": "uCsysb"
+          },
+          {
+            "value": "28",
+            "label": "Building Block Level4",
+            "cId": "fpPGJfn"
+          },
+          {
+            "value": "29",
+            "label": "Item Name",
+            "cId": "rrTJ"
+          },
+          {
+            "value": "30",
+            "label": "Industry",
+            "cId": "daTjsyW"
+          },
+          {
+            "value": "31",
+            "label": "Sub Industry",
+            "cId": "BfnmCn"
+          },
+          {
+            "value": "32",
+            "label": "Geographical Continent",
+            "cId": "BBS"
+          },
+          {
+            "value": "33",
+            "label": "Geographical Region",
+            "cId": "sfmF"
+          },
+          {
+            "value": "34",
+            "label": "Item Category",
+            "cId": "EUmUJPz"
+          },
+          {
+            "value": "35",
+            "label": "Item Sub Category",
+            "cId": "PXNdSWZ"
+          },
+          {
+            "value": "36",
+            "label": "Item Category Size",
+            "cId": "KfFXK"
+          },
+          {
+            "value": "37",
+            "label": "Item Product Line",
+            "cId": "GzUpYGP"
+          },
+          {
+            "value": "38",
+            "label": "Item Business Plan",
+            "cId": "GTAsKj"
+          },
+          {
+            "value": "39",
+            "label": "Channels Level1",
+            "cId": "adCszA"
+          },
+          {
+            "value": "40",
+            "label": "Channels Level2",
+            "cId": "zrwYc"
+          },
+          {
+            "value": "41",
+            "label": "Channels Level3",
+            "cId": "CKKmx"
+          },
+          {
+            "value": "42",
+            "label": "Customer Chain",
+            "cId": "FTcBvY"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=v_Selected_Dimension_1"
+          }
+        },
+        "version": "2.2.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "version": "2.3.1",
+          "type": "visualization",
+          "author": "Erik Wetterberg"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "pnpAEp",
+          "qType": "variable"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "DIM2",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "v_Selected_Dimension_2",
+        "style": "bootstrap",
+        "width": "fill",
+        "customwidth": "10",
+        "render": "s",
+        "alternatives": [
+          {
+            "value": "1",
+            "label": "Business Unit",
+            "cId": "MTQesNB"
+          },
+          {
+            "value": "2",
+            "label": "Business Unit Location",
+            "cId": "zwfmw"
+          },
+          {
+            "value": "3",
+            "label": "Business Unit Type",
+            "cId": "sTFG"
+          },
+          {
+            "value": "4",
+            "label": "Business Type",
+            "cId": "FPaTgdu"
+          },
+          {
+            "value": "5",
+            "label": "Geographical Country",
+            "cId": "AGeBKD"
+          },
+          {
+            "value": "6",
+            "label": "Building Block",
+            "cId": "hPpq"
+          },
+          {
+            "value": "7",
+            "label": "Geographical Area",
+            "cId": "QbppgG"
+          },
+          {
+            "value": "8",
+            "label": "Sector",
+            "cId": "GxrgGm"
+          },
+          {
+            "value": "9",
+            "label": "Business Unit Segment",
+            "cId": "DrpeZR"
+          },
+          {
+            "value": "10",
+            "label": "Division",
+            "cId": "JPfscX"
+          },
+          {
+            "value": "11",
+            "label": "Salesman Level1",
+            "cId": "jdJUf"
+          },
+          {
+            "value": "12",
+            "label": "Salesman Level2",
+            "cId": "DGmN"
+          },
+          {
+            "value": "13",
+            "label": "Salesman Level3",
+            "cId": "XYvXtt"
+          },
+          {
+            "value": "14",
+            "label": "Salesman",
+            "cId": "Hbrdtp"
+          },
+          {
+            "value": "15",
+            "label": "Customer Key Account",
+            "cId": "dwMLn"
+          },
+          {
+            "value": "16",
+            "label": "Customer Key Account LV2",
+            "cId": "bLMeMNf"
+          },
+          {
+            "value": "17",
+            "label": "Product Manager",
+            "cId": "TBbPjD"
+          },
+          {
+            "value": "18",
+            "label": "Customer Unit",
+            "cId": "wjqEkN"
+          },
+          {
+            "value": "19",
+            "label": "Customer Group",
+            "cId": "BRmxfjJ"
+          },
+          {
+            "value": "20",
+            "label": "Customer Statistics Group",
+            "cId": "uKccgh"
+          },
+          {
+            "value": "21",
+            "label": "Customer",
+            "cId": "TSAynyj"
+          },
+          {
+            "value": "22",
+            "label": "Geographical State",
+            "cId": "PRKbWp"
+          },
+          {
+            "value": "23",
+            "label": "Customer Affiliation Type",
+            "cId": "PpEBJjG"
+          },
+          {
+            "value": "24",
+            "label": "Napco Building Block",
+            "cId": "VmUczV"
+          },
+          {
+            "value": "25",
+            "label": "Building Block Level1",
+            "cId": "PmfpDPT"
+          },
+          {
+            "value": "26",
+            "label": "Building Block Level2",
+            "cId": "YtjXJeY"
+          },
+          {
+            "value": "27",
+            "label": "Building Block Level3",
+            "cId": "uCsysb"
+          },
+          {
+            "value": "28",
+            "label": "Building Block Level4",
+            "cId": "fpPGJfn"
+          },
+          {
+            "value": "29",
+            "label": "Item Name",
+            "cId": "rrTJ"
+          },
+          {
+            "value": "30",
+            "label": "Industry",
+            "cId": "daTjsyW"
+          },
+          {
+            "value": "31",
+            "label": "Sub Industry",
+            "cId": "BfnmCn"
+          },
+          {
+            "value": "32",
+            "label": "Geographical Continent",
+            "cId": "BBS"
+          },
+          {
+            "value": "33",
+            "label": "Geographical Region",
+            "cId": "sfmF"
+          },
+          {
+            "value": "34",
+            "label": "Item Category",
+            "cId": "EUmUJPz"
+          },
+          {
+            "value": "35",
+            "label": "Item Sub Category",
+            "cId": "PXNdSWZ"
+          },
+          {
+            "value": "36",
+            "label": "Item Category Size",
+            "cId": "KfFXK"
+          },
+          {
+            "value": "37",
+            "label": "Item Product Line",
+            "cId": "GzUpYGP"
+          },
+          {
+            "value": "38",
+            "label": "Item Business Plan",
+            "cId": "GTAsKj"
+          },
+          {
+            "value": "39",
+            "label": "Channels Level1",
+            "cId": "adCszA"
+          },
+          {
+            "value": "40",
+            "label": "Channels Level2",
+            "cId": "zrwYc"
+          },
+          {
+            "value": "41",
+            "label": "Channels Level3",
+            "cId": "CKKmx"
+          },
+          {
+            "value": "42",
+            "label": "Customer Chain",
+            "cId": "ZjA"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=v_Selected_Dimension_2"
+          }
+        },
+        "version": "2.2.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "version": "2.3.1",
+          "type": "visualization",
+          "author": "Erik Wetterberg"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "uKvajp",
+          "qType": "variable"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "DIM3",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "v_Selected_Dimension_3",
+        "style": "bootstrap",
+        "width": "fill",
+        "customwidth": "10",
+        "render": "s",
+        "alternatives": [
+          {
+            "value": "1",
+            "label": "Business Unit",
+            "cId": "MTQesNB"
+          },
+          {
+            "value": "2",
+            "label": "Business Unit Location",
+            "cId": "zwfmw"
+          },
+          {
+            "value": "3",
+            "label": "Business Unit Type",
+            "cId": "sTFG"
+          },
+          {
+            "value": "4",
+            "label": "Business Type",
+            "cId": "FPaTgdu"
+          },
+          {
+            "value": "5",
+            "label": "Geographical Country",
+            "cId": "AGeBKD"
+          },
+          {
+            "value": "6",
+            "label": "Building Block",
+            "cId": "hPpq"
+          },
+          {
+            "value": "7",
+            "label": "Geographical Area",
+            "cId": "QbppgG"
+          },
+          {
+            "value": "8",
+            "label": "Sector",
+            "cId": "GxrgGm"
+          },
+          {
+            "value": "9",
+            "label": "Business Unit Segment",
+            "cId": "DrpeZR"
+          },
+          {
+            "value": "10",
+            "label": "Division",
+            "cId": "JPfscX"
+          },
+          {
+            "value": "11",
+            "label": "Salesman Level1",
+            "cId": "jdJUf"
+          },
+          {
+            "value": "12",
+            "label": "Salesman Level2",
+            "cId": "DGmN"
+          },
+          {
+            "value": "13",
+            "label": "Salesman Level3",
+            "cId": "XYvXtt"
+          },
+          {
+            "value": "14",
+            "label": "Salesman",
+            "cId": "Hbrdtp"
+          },
+          {
+            "value": "15",
+            "label": "Customer Key Account",
+            "cId": "dwMLn"
+          },
+          {
+            "value": "16",
+            "label": "Customer Key Account LV2",
+            "cId": "bLMeMNf"
+          },
+          {
+            "value": "17",
+            "label": "Product Manager",
+            "cId": "TBbPjD"
+          },
+          {
+            "value": "18",
+            "label": "Customer Unit",
+            "cId": "wjqEkN"
+          },
+          {
+            "value": "19",
+            "label": "Customer Group",
+            "cId": "BRmxfjJ"
+          },
+          {
+            "value": "20",
+            "label": "Customer Statistics Group",
+            "cId": "uKccgh"
+          },
+          {
+            "value": "21",
+            "label": "Customer",
+            "cId": "TSAynyj"
+          },
+          {
+            "value": "22",
+            "label": "Geographical State",
+            "cId": "PRKbWp"
+          },
+          {
+            "value": "23",
+            "label": "Customer Affiliation Type",
+            "cId": "PpEBJjG"
+          },
+          {
+            "value": "24",
+            "label": "Napco Building Block",
+            "cId": "VmUczV"
+          },
+          {
+            "value": "25",
+            "label": "Building Block Level1",
+            "cId": "PmfpDPT"
+          },
+          {
+            "value": "26",
+            "label": "Building Block Level2",
+            "cId": "YtjXJeY"
+          },
+          {
+            "value": "27",
+            "label": "Building Block Level3",
+            "cId": "uCsysb"
+          },
+          {
+            "value": "28",
+            "label": "Building Block Level4",
+            "cId": "fpPGJfn"
+          },
+          {
+            "value": "29",
+            "label": "Item Name",
+            "cId": "rrTJ"
+          },
+          {
+            "value": "30",
+            "label": "Industry",
+            "cId": "daTjsyW"
+          },
+          {
+            "value": "31",
+            "label": "Sub Industry",
+            "cId": "BfnmCn"
+          },
+          {
+            "value": "32",
+            "label": "Geographical Continent",
+            "cId": "BBS"
+          },
+          {
+            "value": "33",
+            "label": "Geographical Region",
+            "cId": "sfmF"
+          },
+          {
+            "value": "34",
+            "label": "Item Category",
+            "cId": "EUmUJPz"
+          },
+          {
+            "value": "35",
+            "label": "Item Sub Category",
+            "cId": "PXNdSWZ"
+          },
+          {
+            "value": "36",
+            "label": "Item Category Size",
+            "cId": "KfFXK"
+          },
+          {
+            "value": "37",
+            "label": "Item Product Line",
+            "cId": "GzUpYGP"
+          },
+          {
+            "value": "38",
+            "label": "Item Business Plan",
+            "cId": "GTAsKj"
+          },
+          {
+            "value": "39",
+            "label": "Channels Level1",
+            "cId": "adCszA"
+          },
+          {
+            "value": "40",
+            "label": "Channels Level2",
+            "cId": "zrwYc"
+          },
+          {
+            "value": "41",
+            "label": "Channels Level3",
+            "cId": "CKKmx"
+          },
+          {
+            "value": "42",
+            "label": "Customer Chain",
+            "cId": "LNFUJX"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=v_Selected_Dimension_3"
+          }
+        },
+        "version": "2.2.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "version": "2.3.1",
+          "type": "visualization",
+          "author": "Erik Wetterberg"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "amzhe",
+          "qType": "variable"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "DIM4",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "v_Selected_Dimension_4",
+        "style": "bootstrap",
+        "width": "fill",
+        "customwidth": "10",
+        "render": "s",
+        "alternatives": [
+          {
+            "value": "1",
+            "label": "Business Unit",
+            "cId": "MTQesNB"
+          },
+          {
+            "value": "2",
+            "label": "Business Unit Location",
+            "cId": "zwfmw"
+          },
+          {
+            "value": "3",
+            "label": "Business Unit Type",
+            "cId": "sTFG"
+          },
+          {
+            "value": "4",
+            "label": "Business Type",
+            "cId": "FPaTgdu"
+          },
+          {
+            "value": "5",
+            "label": "Geographical Country",
+            "cId": "AGeBKD"
+          },
+          {
+            "value": "6",
+            "label": "Building Block",
+            "cId": "hPpq"
+          },
+          {
+            "value": "7",
+            "label": "Geographical Area",
+            "cId": "QbppgG"
+          },
+          {
+            "value": "8",
+            "label": "Sector",
+            "cId": "GxrgGm"
+          },
+          {
+            "value": "9",
+            "label": "Business Unit Segment",
+            "cId": "DrpeZR"
+          },
+          {
+            "value": "10",
+            "label": "Division",
+            "cId": "JPfscX"
+          },
+          {
+            "value": "11",
+            "label": "Salesman Level1",
+            "cId": "jdJUf"
+          },
+          {
+            "value": "12",
+            "label": "Salesman Level2",
+            "cId": "DGmN"
+          },
+          {
+            "value": "13",
+            "label": "Salesman Level3",
+            "cId": "XYvXtt"
+          },
+          {
+            "value": "14",
+            "label": "Salesman",
+            "cId": "Hbrdtp"
+          },
+          {
+            "value": "15",
+            "label": "Customer Key Account",
+            "cId": "dwMLn"
+          },
+          {
+            "value": "16",
+            "label": "Customer Key Account LV2",
+            "cId": "bLMeMNf"
+          },
+          {
+            "value": "17",
+            "label": "Product Manager",
+            "cId": "TBbPjD"
+          },
+          {
+            "value": "18",
+            "label": "Customer Unit",
+            "cId": "wjqEkN"
+          },
+          {
+            "value": "19",
+            "label": "Customer Group",
+            "cId": "BRmxfjJ"
+          },
+          {
+            "value": "20",
+            "label": "Customer Statistics Group",
+            "cId": "uKccgh"
+          },
+          {
+            "value": "21",
+            "label": "Customer",
+            "cId": "TSAynyj"
+          },
+          {
+            "value": "22",
+            "label": "Geographical State",
+            "cId": "PRKbWp"
+          },
+          {
+            "value": "23",
+            "label": "Customer Affiliation Type",
+            "cId": "PpEBJjG"
+          },
+          {
+            "value": "24",
+            "label": "Napco Building Block",
+            "cId": "VmUczV"
+          },
+          {
+            "value": "25",
+            "label": "Building Block Level1",
+            "cId": "PmfpDPT"
+          },
+          {
+            "value": "26",
+            "label": "Building Block Level2",
+            "cId": "YtjXJeY"
+          },
+          {
+            "value": "27",
+            "label": "Building Block Level3",
+            "cId": "uCsysb"
+          },
+          {
+            "value": "28",
+            "label": "Building Block Level4",
+            "cId": "fpPGJfn"
+          },
+          {
+            "value": "29",
+            "label": "Item Name",
+            "cId": "rrTJ"
+          },
+          {
+            "value": "30",
+            "label": "Industry",
+            "cId": "daTjsyW"
+          },
+          {
+            "value": "31",
+            "label": "Sub Industry",
+            "cId": "BfnmCn"
+          },
+          {
+            "value": "32",
+            "label": "Geographical Continent",
+            "cId": "BBS"
+          },
+          {
+            "value": "33",
+            "label": "Geographical Region",
+            "cId": "sfmF"
+          },
+          {
+            "value": "34",
+            "label": "Item Category",
+            "cId": "EUmUJPz"
+          },
+          {
+            "value": "35",
+            "label": "Item Sub Category",
+            "cId": "PXNdSWZ"
+          },
+          {
+            "value": "36",
+            "label": "Item Category Size",
+            "cId": "KfFXK"
+          },
+          {
+            "value": "37",
+            "label": "Item Product Line",
+            "cId": "GzUpYGP"
+          },
+          {
+            "value": "38",
+            "label": "Item Business Plan",
+            "cId": "GTAsKj"
+          },
+          {
+            "value": "39",
+            "label": "Channels Level1",
+            "cId": "adCszA"
+          },
+          {
+            "value": "40",
+            "label": "Channels Level2",
+            "cId": "zrwYc"
+          },
+          {
+            "value": "41",
+            "label": "Channels Level3",
+            "cId": "CKKmx"
+          },
+          {
+            "value": "42",
+            "label": "Customer Chain",
+            "cId": "jTPaKSv"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=v_Selected_Dimension_4"
+          }
+        },
+        "version": "2.2.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "version": "2.3.1",
+          "type": "visualization",
+          "author": "Erik Wetterberg"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "CFRpR",
+          "qType": "variable"
+        },
+        "qMetaDef": {},
+        "showTitles": true,
+        "title": "DIM5",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "v_Selected_Dimension_5",
+        "style": "bootstrap",
+        "width": "fill",
+        "customwidth": "10",
+        "render": "s",
+        "alternatives": [
+          {
+            "value": "1",
+            "label": "Business Unit",
+            "cId": "MTQesNB"
+          },
+          {
+            "value": "2",
+            "label": "Business Unit Location",
+            "cId": "zwfmw"
+          },
+          {
+            "value": "3",
+            "label": "Business Unit Type",
+            "cId": "sTFG"
+          },
+          {
+            "value": "4",
+            "label": "Business Type",
+            "cId": "FPaTgdu"
+          },
+          {
+            "value": "5",
+            "label": "Geographical Country",
+            "cId": "AGeBKD"
+          },
+          {
+            "value": "6",
+            "label": "Building Block",
+            "cId": "hPpq"
+          },
+          {
+            "value": "7",
+            "label": "Geographical Area",
+            "cId": "QbppgG"
+          },
+          {
+            "value": "8",
+            "label": "Sector",
+            "cId": "GxrgGm"
+          },
+          {
+            "value": "9",
+            "label": "Business Unit Segment",
+            "cId": "DrpeZR"
+          },
+          {
+            "value": "10",
+            "label": "Division",
+            "cId": "JPfscX"
+          },
+          {
+            "value": "11",
+            "label": "Salesman Level1",
+            "cId": "jdJUf"
+          },
+          {
+            "value": "12",
+            "label": "Salesman Level2",
+            "cId": "DGmN"
+          },
+          {
+            "value": "13",
+            "label": "Salesman Level3",
+            "cId": "XYvXtt"
+          },
+          {
+            "value": "14",
+            "label": "Salesman",
+            "cId": "Hbrdtp"
+          },
+          {
+            "value": "15",
+            "label": "Customer Key Account",
+            "cId": "dwMLn"
+          },
+          {
+            "value": "16",
+            "label": "Customer Key Account LV2",
+            "cId": "bLMeMNf"
+          },
+          {
+            "value": "17",
+            "label": "Product Manager",
+            "cId": "TBbPjD"
+          },
+          {
+            "value": "18",
+            "label": "Customer Unit",
+            "cId": "wjqEkN"
+          },
+          {
+            "value": "19",
+            "label": "Customer Group",
+            "cId": "BRmxfjJ"
+          },
+          {
+            "value": "20",
+            "label": "Customer Statistics Group",
+            "cId": "uKccgh"
+          },
+          {
+            "value": "21",
+            "label": "Customer",
+            "cId": "TSAynyj"
+          },
+          {
+            "value": "22",
+            "label": "Geographical State",
+            "cId": "PRKbWp"
+          },
+          {
+            "value": "23",
+            "label": "Customer Affiliation Type",
+            "cId": "PpEBJjG"
+          },
+          {
+            "value": "24",
+            "label": "Napco Building Block",
+            "cId": "VmUczV"
+          },
+          {
+            "value": "25",
+            "label": "Building Block Level1",
+            "cId": "PmfpDPT"
+          },
+          {
+            "value": "26",
+            "label": "Building Block Level2",
+            "cId": "YtjXJeY"
+          },
+          {
+            "value": "27",
+            "label": "Building Block Level3",
+            "cId": "uCsysb"
+          },
+          {
+            "value": "28",
+            "label": "Building Block Level4",
+            "cId": "fpPGJfn"
+          },
+          {
+            "value": "29",
+            "label": "Item Name",
+            "cId": "rrTJ"
+          },
+          {
+            "value": "30",
+            "label": "Industry",
+            "cId": "daTjsyW"
+          },
+          {
+            "value": "31",
+            "label": "Sub Industry",
+            "cId": "BfnmCn"
+          },
+          {
+            "value": "32",
+            "label": "Geographical Continent",
+            "cId": "BBS"
+          },
+          {
+            "value": "33",
+            "label": "Geographical Region",
+            "cId": "sfmF"
+          },
+          {
+            "value": "34",
+            "label": "Item Category",
+            "cId": "EUmUJPz"
+          },
+          {
+            "value": "35",
+            "label": "Item Sub Category",
+            "cId": "PXNdSWZ"
+          },
+          {
+            "value": "36",
+            "label": "Item Category Size",
+            "cId": "KfFXK"
+          },
+          {
+            "value": "37",
+            "label": "Item Product Line",
+            "cId": "GzUpYGP"
+          },
+          {
+            "value": "38",
+            "label": "Item Business Plan",
+            "cId": "GTAsKj"
+          },
+          {
+            "value": "39",
+            "label": "Channels Level1",
+            "cId": "adCszA"
+          },
+          {
+            "value": "40",
+            "label": "Channels Level2",
+            "cId": "zrwYc"
+          },
+          {
+            "value": "41",
+            "label": "Channels Level3",
+            "cId": "CKKmx"
+          },
+          {
+            "value": "42",
+            "label": "Customer Chain",
+            "cId": "WkcFKp"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=v_Selected_Dimension_5"
+          }
+        },
+        "version": "2.2.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "puzzle",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+          "isThirdParty": true,
+          "version": "2.3.1",
+          "type": "visualization",
+          "author": "Erik Wetterberg"
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

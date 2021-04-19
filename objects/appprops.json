@@ -1,0 +1,22 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "CqDcgQ",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": "#4477aa",
+      "sheetTitleGradientColor": "none",
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/9e3323e2-d339-463c-bddf-622d2623a054/SALES Grid.jpg"
+        }
+      },
+      "sheetLogoPosition": "right",
+      "rtl": false
+    },
+    "qChildren": []
+  }
+]
